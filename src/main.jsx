@@ -7,8 +7,8 @@ import './index.css';
 const config = {
     signInRedirectURL: "http://localhost:5173",
     signOutRedirectURL: "http://localhost:5173",
-    clientID: "du3XfnVmkwrDVtxdhHstpB0Y_iYa",
-    baseUrl: "https://api.asgardeo.io/t/ciamdemo001",
+    clientID: "<Client_Id>",
+    baseUrl: "IdP_Base_URL",
     scope: [ "openid", "profile" ],
     storage: "webWorker",
     resourceServerURLs: ["https://freecodecampdemo.free.beeceptor.com"]
