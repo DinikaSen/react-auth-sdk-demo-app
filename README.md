@@ -1,12 +1,19 @@
-# React + Vite
+# React Auth SDK Demo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that demonstrates user authentication and API integration using the [Asgardeo React SDK](https://www.npmjs.com/package/@asgardeo/auth-react). 
 
-Currently, two official plugins are available:
+The sample app showcases:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Logging in and out via OAuth2/OpenID Connect
+- Displaying user profile information
+- Making authenticated API requests with a bearer token
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/DinikaSen/react-auth-sdk-demo-app.git
+cd react-auth-sdk-demo-app
+npm install
+npm run dev 
