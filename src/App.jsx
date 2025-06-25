@@ -26,11 +26,12 @@ const fetchTransactions = async () => {
       },
       method: "GET",
       url: "https://freecodecampdemo.free.beeceptor.com/transactions",
+      withCredentials: false
     };
 
     const response = await httpRequest(requestConfig);
     console.log(response);
-    setTransactions(response.transactions || []);
+    setTransactions(response.data.transactions || []);
   } catch (error) {
     console.log(error);
     setError("Failed to load transactions");
