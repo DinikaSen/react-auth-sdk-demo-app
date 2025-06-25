@@ -8,6 +8,8 @@ The sample app showcases:
 - Displaying user profile information
 - Making authenticated API requests with a bearer token
 
+More details on how to use Asgardeo React SDK can be found in [this guide](https://wso2.com/asgardeo/docs/complete-guides/react/introduction/).
+
 ## 📦 Installation
 
 Clone the repo and install dependencies:
