@@ -11,7 +11,7 @@ const config = {
     baseUrl: "https://api.asgardeo.io/t/ciamdemo001",
     scope: [ "openid", "profile" ],
     storage: "webWorker",
-    resourceServerURLs: ["https://demo-transactions.beeceptor.com"]
+    resourceServerURLs: ["https://freecodecampdemo.free.beeceptor.com"]
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(

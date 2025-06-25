@@ -25,7 +25,7 @@ const fetchTransactions = async () => {
         "Accept": "application/json"
       },
       method: "GET",
-      url: "https://demo-transactions.beeceptor.com/transactions",
+      url: "https://freecodecampdemo.free.beeceptor.com/transactions",
     };
 
     const response = await httpRequest(requestConfig);
